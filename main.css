@@ -23,6 +23,11 @@
     src: url(type/Poppins-Regular.ttf);
   }
 
+  @font-face {
+    font-family: poppins_italic;
+    src: url(type/Poppins-Italic.ttf);
+  }
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -78,16 +83,6 @@ a {
     text-decoration: none;
 }
 
-.zoom {
-    transition: transform .3s; 
-    margin: 0 auto;
-    z-index: -1;
-  }
-
-.zoom:hover {
-    transform: scale(1.1);
-}
-
 a:hover, h1:hover {
     background-color: ghostwhite;
     transition: all;
@@ -95,18 +90,20 @@ a:hover, h1:hover {
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
+    font-family: poppins_italic;
   }
 
 /*------------- Nav -------------*/
 
 ul {
-    margin-top: 20px;
     list-style-type: none;
     position: fixed;
     font-family: poppins_medium;
     overflow: hidden;
     background-color: ghostwhite;
     position: fixed;
+    z-index: 99;
+    top: 20px;
   }
   
   li {
