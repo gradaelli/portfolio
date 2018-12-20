@@ -73,8 +73,7 @@ h5 {
 
 p {
     color: #8f9ea5;
-    font-family: poppins_medium;
-    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     margin-top: 10px;
     font-size: 15px;
@@ -202,6 +201,7 @@ h5 a:hover {
 
 .aboutMe {
     margin-top: 200px;
+    margin-right: 350px;
 }
 
 /*------------- Project View -------------*/
