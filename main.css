@@ -223,33 +223,6 @@ h5 a:hover {
 
 /*------------- Project View -------------*/
 
-
-.projectView {
-    width: 100%;
-    position: relative;
-    margin-bottom: 10em;
-}
-
-.projectView > .workText {
-    position: absolute;
-    top: 85px;
-    line-height: 250%;
-}
-
-.projectView > .projectImg {
-    width: 80%;
-    float: right;
-    -webkit-box-shadow: 4px 4px 26px -4px rgba(0,0,0,0.14);
-    -moz-box-shadow: 4px 4px 26px -4px rgba(0,0,0,0.14);
-    box-shadow: 4px 4px 26px -4px rgba(0,0,0,0.14);
-}
-
-.projectView ul {
-    position: absolute;
-    bottom: 0;
-    right: 86%;
-}
-
 .imgView {
     width: 100%;
     float: right;
